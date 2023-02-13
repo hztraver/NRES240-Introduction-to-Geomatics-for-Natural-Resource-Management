@@ -1,3 +1,13 @@
+```{r echo=FALSE}
+yml_content <- yaml::read_yaml("chapterauthors.yml")
+author <- yml_content[["lab1shortname"]][["author"]]
+```
+# Lab Title {#ClimateNA}
+
+Written by
+```{r results='asis', echo=FALSE}
+cat(author)
+```
 
 # Introduction to spatial data and map projections {#intro}
 
