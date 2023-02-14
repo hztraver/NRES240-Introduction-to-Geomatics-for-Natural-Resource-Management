@@ -45,7 +45,7 @@ Over the past century, greenhouse gas emissions have driven rapid climatic chang
 
 -   Charts showing MAT and MAP plotted by elevation
 
--   Answers to 9 questions
+-   Answers to 10 questions
 
 -   Brief discussion of climate change impacts at Canadian location of your choice
 
@@ -206,15 +206,17 @@ To visualize how different map projections alter shape, area and distance of spa
 knitr::include_graphics('images/01-ellipses.jpg')
 ```
 
-Use the measure tool from the top ribbon (**Map -> Measure**) to measure the length and width of the ellipses at the poles and at the equator. You will notice that the ellipses are actually perfect circles with a diameter of ~1000km.
+Use the measure tool from the top ribbon (**Map -> Measure**) to measure the length and width of the ellipses at the poles and at the equator. You will notice that the ellipses are actually circles with a diameter of ~993km. They are also spaced at equal intervals of lat/long from each other. 
 
-##### Q5. What areas of the map show the most distortion? What properties of the circles are distorted? 
+##### Q5. What areas of the map show the most distortion? What properties of the circles are distorted? Provide info about area, shape, direction & distance.
 
 You can change the projection of the entire map in the **Map Properties -> Coordinate Systems** tab. Any layers in the contents pane will be projected on the fly and displayed in this coordinate system. Note that changing the coordinate system of the Map does NOT change the underlying projection of the data itself.
 
-Compare the following three projections: **Mercator (world), Robinson (world), Azimuthal Equidistant (world).** .  
+Compare the following three projections: **Mercator (world), Equidistant Cylindrical (world), North Pole Azimuthal Equidistant (world).** 
 
-##### Q6: For each scenario idenitfy the best map projection: 1) Comparing the area of different provinces, 2) Calculating the direction and distance between two cities, 3) Mapping the shape of the northern coastline? 
+##### Q6:For each projection what properties of the circles are mostly maintained and what properties are greatly distorted? Provide info about area, shape, direction & distance. (Remember these properties can vary independently in the X and Y dimensions). 
+
+##### Q7: For each scenario idenitfy the best map projection: 1) Comparing the area of differenct countries in the northern hemispherec, 2) Calculating the distance between Edmonton and the north pole , 3) Mapping the shape of the northern Canadian coastline? 
 
 **Step 3:** Drag and drop the 4 climate rasters from your Downloads folder to the Contents pane. 
 
@@ -239,13 +241,13 @@ You should now have a layer that looks like the following:
 knitr::include_graphics('images/01-MATdiff.jpg')
 ```
 
-##### Q7: In 1-2 sentences comment on the pattern of change in MAT. Where are the greatest changes expected in Canada? 
+##### Q8: In 1-2 sentences comment on the pattern of change in MAT. Where are the greatest changes expected in Canada? 
 
 **Repeat Steps 3-4 with the MAP. Note that cell values need to be scaled by a factor of 100 to convert to mm. Take a screenshot of the final change in MAP layer (similar to above) and include in the final deliverables.** 
 
-##### Q8: What is the minimum and maximum change in MAP (in units of mm)? 
+##### Q9: What is the minimum and maximum change in MAP (in units of mm)? 
 
-##### Q9: In 1-2 sentences comment on the pattern of change in MAP. Where are the greatest changes expected in Canada?
+##### Q10: In 1-2 sentences comment on the pattern of change in MAP. Where are the greatest changes expected in Canada?
 
 **Step 5:** Now zoom into a place in Canada that is significant to you!
 
